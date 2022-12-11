@@ -1,0 +1,19 @@
+{
+  "name": "hedera-one",
+  "version": "1.0.0",
+  "description": "Hedera SDK 1",
+  "main": "index.ts",
+  "author": "mkulima",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "ts-node-dev src/index"
+  },
+  "dependencies": {
+    "@hashgraph/sdk": "^2.19.0",
+    "@types/node": "^18.11.13",
+    "dotenv": "^16.0.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.4"
+  }
+}
